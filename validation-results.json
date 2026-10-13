@@ -1,0 +1,625 @@
+{
+  "release": "2026.10.14",
+  "validation": "Node VM with simulated document events; not a browser rendering test",
+  "passed": 154,
+  "total": 154,
+  "failed": [],
+  "checks": [
+    {
+      "name": "Saturation pressure at 25 °C (ASHRAE 3.169 kPa)",
+      "passed": true
+    },
+    {
+      "name": "Dew point at 25 °C and 60% RH (ASHRAE 16.7 °C)",
+      "passed": true
+    },
+    {
+      "name": "Enthalpy at 25 °C and 10 g/kg (50.6 kJ/kg)",
+      "passed": true
+    },
+    {
+      "name": "Barometric pressure at 500 m (95.46 kPa)",
+      "passed": true
+    },
+    {
+      "name": "Duct friction against Colebrook solution (500 mm, 1 m³/s)",
+      "passed": true
+    },
+    {
+      "name": "Rectangular 400×400 friction equals round 437 mm (ASHRAE equivalent)",
+      "passed": true
+    },
+    {
+      "name": "Cleanroom airflow = volume × ACH (60 m² × 3 m × 45 = 8,100 m³/h)",
+      "passed": true
+    },
+    {
+      "name": "Recovery time, 100:1 at 60 ACH and full mixing (4.6 min)",
+      "passed": true
+    },
+    {
+      "name": "Door leakage 0.827 × 0.01 m² × √25 Pa (148.9 m³/h)",
+      "passed": true
+    },
+    {
+      "name": "AHU moisture balance: 2 kg/h gain = 1.39 kW latent",
+      "passed": true
+    },
+    {
+      "name": "Fan shaft power: 1 m³/s × 1000 Pa at 100% efficiency (1.00 kW)",
+      "passed": true
+    },
+    {
+      "name": "PFC: 600 kW from 0.85 to 0.98 PF (249.96 kVAr)",
+      "passed": true
+    },
+    {
+      "name": "Transformer 630 kVA, 6.25%: fault contribution at LV (kVA / (√3·V) / Z)",
+      "passed": true
+    },
+    {
+      "name": "UPS battery: 15 kW, 30 min, 384 V, 80% DoD, ×1.25 ×1.1 (35.7 Ah)",
+      "passed": true
+    },
+    {
+      "name": "Cable: 75 kW motor full-load current",
+      "passed": true
+    },
+    {
+      "name": "Cable: minimum size for 20 kA, 1 s, Cu k=143 (139.9 mm²)",
+      "passed": true
+    },
+    {
+      "name": "EFLI: Zs = Ze + (R1+R2)·1.2·length for 6/6 mm², 30 m, Ze 0.35 Ω (0.567 Ω)",
+      "passed": true
+    },
+    {
+      "name": "EFLI: maximum Zs for C32 at 230 V = 0.95·230/(10·32) (0.683 Ω)",
+      "passed": true
+    },
+    {
+      "name": "Earthing grid (IEEE 80 Sverak): ρ 100, 2500 m², 600 m, 0.5 m (1.042 Ω)",
+      "passed": true
+    },
+    {
+      "name": "Earth rod: ρ 100, 3 m × 12.5 mm (34.8 Ω)",
+      "passed": true
+    },
+    {
+      "name": "Arc flash (Lee): 20 kA, 0.5 s, 455 mm",
+      "passed": true
+    },
+    {
+      "name": "Lightning collection area 120 × 80 × 12 m (28,072 m²)",
+      "passed": true
+    },
+    {
+      "name": "Busbar force: 50 kA, κ 1.8, 0.8 m span, 0.12 m spacing (21.6 kN)",
+      "passed": true
+    },
+    {
+      "name": "Harmonics: 40% non-linear share × 30% ITHD (TDD 12%)",
+      "passed": true
+    },
+    {
+      "name": "DG: largest-motor starting kVA = 90 / (0.94 × 0.85) × 6 (675.8 kVA)",
+      "passed": true
+    },
+    {
+      "name": "Protection: HV transformer FLC = kVA / (√3 × 33 kV)",
+      "passed": true
+    },
+    {
+      "name": "Relay: standard inverse, TMS 1, 10 × pickup (IEC 60255: 2.97 s)",
+      "passed": true
+    },
+    {
+      "name": "Harmonics: 12-pulse drives only, TDD = √(Σ spectrum²) (11.35%)",
+      "passed": true
+    },
+    {
+      "name": "Transformer 630 kVA: no-load loss 0.10% (0.63 kW)",
+      "passed": true
+    },
+    {
+      "name": "Transformer efficiency at 50% loading, 0.9 PF, 0.85% load loss (99.31%)",
+      "passed": true
+    },
+    {
+      "name": "UPS discharge current at end of discharge: 15 kW, 192 cells at 1.67 V (49.8 A)",
+      "passed": true
+    },
+    {
+      "name": "PFC parallel resonance: √(10 MVA / 300 kVAr) (5.77)",
+      "passed": true
+    },
+    {
+      "name": "EFLI maximum length for C32 at 230 V, 6 mm² (m)",
+      "passed": true
+    },
+    {
+      "name": "Earthing mesh coefficient Km: 50 m grid, 6 conductors each way, 0.5 m, 10 mm (0.9615)",
+      "passed": true
+    },
+    {
+      "name": "Lightning: down conductors for 120 × 80 m at 10 m spacing (40)",
+      "passed": true
+    },
+    {
+      "name": "Arc flash: clearing time for 8 cal/cm² at 20 kA and 455 mm",
+      "passed": true
+    },
+    {
+      "name": "I/O modules: 16 AI at 8 per module (2 modules, no spare)",
+      "passed": true
+    },
+    {
+      "name": "Historian samples per day: 1,000 tags at 60 s (1,440,000)",
+      "passed": true
+    },
+    {
+      "name": "Alert limit: mean 1 + 3 × 0.2 (1.6)",
+      "passed": true
+    },
+    {
+      "name": "ISO 14644-1 locations for a 100 m² room (16)",
+      "passed": true
+    },
+    {
+      "name": "4–20 mA scaling: 12 mA on 0–100 range equals 50",
+      "passed": true
+    },
+    {
+      "name": "Internal circuits: 24 × 36 W connected equals 0.864 kW",
+      "passed": true
+    },
+    {
+      "name": "Circuits sized without demand diversity: 8 × 36 W / (230 V × 0.95)",
+      "passed": true
+    },
+    {
+      "name": "Render module: dash",
+      "passed": true
+    },
+    {
+      "name": "Render module: scope",
+      "passed": true
+    },
+    {
+      "name": "Render module: ind",
+      "passed": true
+    },
+    {
+      "name": "Render module: loads",
+      "passed": true
+    },
+    {
+      "name": "Render module: tr",
+      "passed": true
+    },
+    {
+      "name": "Render module: dg",
+      "passed": true
+    },
+    {
+      "name": "Render module: ups",
+      "passed": true
+    },
+    {
+      "name": "Render module: cab",
+      "passed": true
+    },
+    {
+      "name": "Render module: efli",
+      "passed": true
+    },
+    {
+      "name": "Render module: pfc",
+      "passed": true
+    },
+    {
+      "name": "Render module: ltg",
+      "passed": true
+    },
+    {
+      "name": "Render module: earth",
+      "passed": true
+    },
+    {
+      "name": "Render module: prot",
+      "passed": true
+    },
+    {
+      "name": "Render module: arc",
+      "passed": true
+    },
+    {
+      "name": "Render module: hrm",
+      "passed": true
+    },
+    {
+      "name": "Render module: lpr",
+      "passed": true
+    },
+    {
+      "name": "Render module: bus",
+      "passed": true
+    },
+    {
+      "name": "Render module: hvac",
+      "passed": true
+    },
+    {
+      "name": "Render module: ahu",
+      "passed": true
+    },
+    {
+      "name": "Render module: duct",
+      "passed": true
+    },
+    {
+      "name": "Render module: press",
+      "passed": true
+    },
+    {
+      "name": "Render module: rec",
+      "passed": true
+    },
+    {
+      "name": "Render module: hepa",
+      "passed": true
+    },
+    {
+      "name": "Render module: fan",
+      "passed": true
+    },
+    {
+      "name": "Render module: wtr",
+      "passed": true
+    },
+    {
+      "name": "Render module: deadleg",
+      "passed": true
+    },
+    {
+      "name": "Render module: cold",
+      "passed": true
+    },
+    {
+      "name": "Render module: pipe",
+      "passed": true
+    },
+    {
+      "name": "Render module: est",
+      "passed": true
+    },
+    {
+      "name": "Render module: sch",
+      "passed": true
+    },
+    {
+      "name": "Render module: sld",
+      "passed": true
+    },
+    {
+      "name": "Render module: cust",
+      "passed": true
+    },
+    {
+      "name": "Render module: fda",
+      "passed": true
+    },
+    {
+      "name": "Render module: reg",
+      "passed": true
+    },
+    {
+      "name": "Render module: rooms",
+      "passed": true
+    },
+    {
+      "name": "Render module: fmea",
+      "passed": true
+    },
+    {
+      "name": "Render module: sens",
+      "passed": true
+    },
+    {
+      "name": "Render module: regs",
+      "passed": true
+    },
+    {
+      "name": "Render module: dnet",
+      "passed": true
+    },
+    {
+      "name": "Render module: trace",
+      "passed": true
+    },
+    {
+      "name": "Render module: proj",
+      "passed": true
+    },
+    {
+      "name": "Render module: verify",
+      "passed": true
+    },
+    {
+      "name": "Render module: io",
+      "passed": true
+    },
+    {
+      "name": "Render module: ctrl",
+      "passed": true
+    },
+    {
+      "name": "Render module: his",
+      "passed": true
+    },
+    {
+      "name": "Render module: alm",
+      "passed": true
+    },
+    {
+      "name": "Render module: ems",
+      "passed": true
+    },
+    {
+      "name": "Render module: autochk",
+      "passed": true
+    },
+    {
+      "name": "Render module: dgstep",
+      "passed": true
+    },
+    {
+      "name": "Render module: cabs",
+      "passed": true
+    },
+    {
+      "name": "Render module: lsch",
+      "passed": true
+    },
+    {
+      "name": "Render module: relay",
+      "passed": true
+    },
+    {
+      "name": "Render module: hspec",
+      "passed": true
+    },
+    {
+      "name": "Render module: acts",
+      "passed": true
+    },
+    {
+      "name": "Render module: energy",
+      "passed": true
+    },
+    {
+      "name": "Render module: calibration",
+      "passed": true
+    },
+    {
+      "name": "Render module: maintenance",
+      "passed": true
+    },
+    {
+      "name": "Render module: security",
+      "passed": true
+    },
+    {
+      "name": "Render module: modern",
+      "passed": true
+    },
+    {
+      "name": "Render module: reports",
+      "passed": true
+    },
+    {
+      "name": "Render module: workflow",
+      "passed": true
+    },
+    {
+      "name": "Render module: internal",
+      "passed": true
+    },
+    {
+      "name": "Render module: external",
+      "passed": true
+    },
+    {
+      "name": "Render module: instruments",
+      "passed": true
+    },
+    {
+      "name": "Render module: utilityd",
+      "passed": true
+    },
+    {
+      "name": "Render module: drafts",
+      "passed": true
+    },
+    {
+      "name": "Load demand uses efficiency, power factor and demand factor",
+      "passed": true
+    },
+    {
+      "name": "Internal circuit current ignores upstream demand diversity",
+      "passed": true
+    },
+    {
+      "name": "Three-phase circuit uses line voltage and sqrt(3)",
+      "passed": true
+    },
+    {
+      "name": "Circuit allocation rounds the largest branch upward",
+      "passed": true
+    },
+    {
+      "name": "Adiabatic circuit minimum uses I sqrt(t) / k",
+      "passed": true
+    },
+    {
+      "name": "Circuit route quantity includes number of circuits and allowance",
+      "passed": true
+    },
+    {
+      "name": "Distribution returns explicit review if no cable meets constraints",
+      "passed": true
+    },
+    {
+      "name": "Invalid distribution denominator is rejected",
+      "passed": true
+    },
+    {
+      "name": "Instrument range midpoint",
+      "passed": true
+    },
+    {
+      "name": "Instrument endpoints and out-of-range status",
+      "passed": true
+    },
+    {
+      "name": "Zero instrument span is rejected",
+      "passed": true
+    },
+    {
+      "name": "Internal transfers replace linked rows without duplication",
+      "passed": true
+    },
+    {
+      "name": "External transfer preserves circuit phase and assembly length",
+      "passed": true
+    },
+    {
+      "name": "Linked circuit cable schedule renders original selected size",
+      "passed": true
+    },
+    {
+      "name": "Cable schedule honors current Cable sizing parameters",
+      "passed": true
+    },
+    {
+      "name": "Utility demand sums concurrent use in consistent units",
+      "passed": true
+    },
+    {
+      "name": "Utility workflow sends generation rates through actual click handler",
+      "passed": true
+    },
+    {
+      "name": "Room workflow transfers total airflow to AHU and fan",
+      "passed": true
+    },
+    {
+      "name": "Duct workflow transfers critical path pressure only",
+      "passed": true
+    },
+    {
+      "name": "I/O generation is repeatable and preserves manual points",
+      "passed": true
+    },
+    {
+      "name": "I/O workflow transfers typed counts into controller and historian",
+      "passed": true
+    },
+    {
+      "name": "UPS demand sync follows edited critical loads",
+      "passed": true
+    },
+    {
+      "name": "Budget schedule sync uses real cable assemblies",
+      "passed": true
+    },
+    {
+      "name": "Estimate total consistently applies installation, engineering, contingency and GST",
+      "passed": true
+    },
+    {
+      "name": "Quantity/rate overrides recalculate budget through change handler",
+      "passed": true
+    },
+    {
+      "name": "Valid project change persists in browser storage",
+      "passed": true
+    },
+    {
+      "name": "Invalid voltage edit never changes saved project",
+      "passed": true
+    },
+    {
+      "name": "Calibration capture handler rejects negative tolerance",
+      "passed": true
+    },
+    {
+      "name": "Energy workflow rejects a zero baseline before calculation",
+      "passed": true
+    },
+    {
+      "name": "Motor multiplier and battery aging are not constrained to unity",
+      "passed": true
+    },
+    {
+      "name": "Nonfinite module values and PF above one are rejected",
+      "passed": true
+    },
+    {
+      "name": "Imported project accepts exported state",
+      "passed": true
+    },
+    {
+      "name": "Import rejects string voltage and bad load PF",
+      "passed": true
+    },
+    {
+      "name": "Import rejects prototype-related keys",
+      "passed": true
+    },
+    {
+      "name": "Import rejects malformed calibration schedules before reloading",
+      "passed": true
+    },
+    {
+      "name": "Browser project roundtrip initializes every module",
+      "passed": true
+    },
+    {
+      "name": "Schedule dependency cycle is reported",
+      "passed": true
+    },
+    {
+      "name": "Schedule detects missing predecessors",
+      "passed": true
+    },
+    {
+      "name": "Draft narrative edits persist and are escaped",
+      "passed": true
+    },
+    {
+      "name": "Draft snapshot remains fixed after underlying input edits",
+      "passed": true
+    },
+    {
+      "name": "Report generation captures selected modules, freezes fields and restores navigation",
+      "passed": true
+    },
+    {
+      "name": "Empty report selection produces a clear error",
+      "passed": true
+    },
+    {
+      "name": "Calibration uncertainty guard band flags a boundary ambiguity",
+      "passed": true
+    },
+    {
+      "name": "Custom formula parser computes without evaluating JavaScript",
+      "passed": true
+    },
+    {
+      "name": "No public hosting or telemetry scripts embedded",
+      "passed": true
+    }
+  ]
+}
